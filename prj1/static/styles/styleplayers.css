@@ -1,0 +1,62 @@
+/* Шапка */
+.sostav_liverpool {
+    background-image: url("https://static.euro-football.ru/images/gallery/e0f90345bb8ba79c2f48306e4a1bf60e2507b418.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.7);
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  
+  .players_tablisa {
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: collapse;
+  }
+  
+  .players_tablisa table {
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  .players_tablisa th, .players_tablisa td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .players_tablisa th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .players_tablisa tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .manager {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    background-color: #f4f4f4;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  .manager h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .manager p {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  

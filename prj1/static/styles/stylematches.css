@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  
+  header {
+    background-color: #970808; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .liverlogo {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  header .logo {
+    width: 50px; 
+    height: auto; 
+  }
+  header h1 {
+    top: 50%;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .matches-buttons {
+    display: flex; 
+    justify-content: space-between;  
+    width: 60%;  
+    margin: 0 auto;  
+    margin-top: 5px;  
+    gap: 50px;
+  }
+ 
+.matches_spisok summary {
+  padding: 10px 20px; 
+  background-color: #f0f0f0;  
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  text-align: center;
+  font-size: 16px; 
+  font-weight: bold; 
+}
+  summary {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #9e0000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .matches {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .matches-left, .matches-right {
+    width: 48%;
+  }
+  
+  .match {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .match-details {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .match-info {
+    font-size: 15px;
+    color: #555;
+  }
+  
+  .match-info span {
+    display: block;
+  }
+  
+  .match-info span:first-child {
+    margin-bottom: 5px;
+  }
+  
+  .matches_spisok details[open] summary {
+    background-color: #d9f7be;
+  }
+  
+  .matches_spisok details[open] .matches-left, 
+  .matches_spisok details[open] .matches-right {
+    background-color: #f9f9f9;
+  }
+  
+  @media (max-width: 768px) {
+    .matches-left, .matches-right {
+      width: 100%;
+    }
+  }
+  .match_week {
+    background-color: #d6c1c1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .match_week h2 {
+    font-size: 30px;
+    color: #a00505;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .match_week p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .match_week h3 {
+    font-size: 15px;
+    color: #312f2f;
+    margin-bottom: 10px;
+  }
+  
+  .match_week ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 15px;
+  }
+  
+  .match_week ul li {
+    padding: 5px 0;
+    color: #333;
+  }
+  
+  .match_week video {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  .players_month {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .players_month h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .players_list {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+  }
+  
+  .player {
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .player img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .player p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .konec {
+    background-image: url(https://cdn.fitting-solutions.at/en/uploads/2023/02/Anfield1200.jpg?strip=all&lossy=1&ssl=1);
+    background-size: cover;
+    background-position: center;
+    height: 200px; 
+    margin-top: 20px;
+  
+  }
+  
+  
